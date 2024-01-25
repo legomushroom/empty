@@ -1,0 +1,15 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "privileged": true,
+	"runArgs": [
+		"-v", "/lib/modules:/lib/modules",
+		"-v", "/dev:/dev",
+		"-v", "/:/host",
+		"-v", "/proc:/host/proc",
+        "--cap-add", "SYS_ADMIN",
+		"--cap-add", "ALL"
+	],
+    "features": {
+		"ghcr.io/devcontainers/features/rust:1": {}
+	}
+}
