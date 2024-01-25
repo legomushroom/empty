@@ -11,5 +11,7 @@
 	],
     "features": {
 		"ghcr.io/devcontainers/features/rust:1": {}
-	}
+	},
+	"remoteUser": "root",
+	"containerUser": "root"
 }
