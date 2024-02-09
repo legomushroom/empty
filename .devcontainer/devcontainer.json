@@ -4,6 +4,7 @@
 	"runArgs": [
 		"-v", "/lib/modules:/lib/modules",
 		"-v", "/dev:/dev",
+		"-v", "/boot:/boot",
 		"-v", "/:/host",
 		"-v", "/proc:/host/proc",
         "--cap-add", "SYS_ADMIN",
